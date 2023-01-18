@@ -1,3 +1,0 @@
-﻿Rank,Paper Title,Citation,Venue,Year,Data Preprocessing,Data augmentation,Imbalance,Ensemble,Feature engineering,Hand Features,Temporal,Frequent,Demographic Features,DNN,CNN,RNN/Transformer,Attention,Backbone,Score,End-to-end,Multi-binary classification,Others
-1,A novel deep learning package for electrocardiography research
-2,Investigating Deep Learning Benchmarks for Electrocardiography Signal Processing
