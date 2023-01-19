@@ -1,5 +1,5 @@
 Rank,Paper Title,Citation,Venue,Year,Data Preprocessing,Data augmentation,Imbalance,Ensemble,Feature engineering,Hand Features,Temporal,Frequent,Demographic Features,DNN,CNN,RNN/Transformer,Attention,Backbone,Score,End-to-end,Multi-binary classification,Others
-1,Investigating Deep Learning Benchmarks for Electrocardiography Signal Processing,3,arXiv preprint arXiv:2204.04420,2022,,,,,,,,,,,,,,,,,,
+1,Investigating Deep Learning Benchmarks for Electrocardiography Signal Processing,3,arXiv preprint,2022,,,,,,,,,,,,,,,,,,
 2,A Multistep Paroxysmal Atrial Fibrillation Scanning Strategy in Long-Term ECGs,2,IEEE,2022,,,,,,,,,,,,,,,,,,
 3,,,,,,,,,,,,,,,,,,,,,,
 4,,,,,,,,,,,,,,,,,,,,,,
