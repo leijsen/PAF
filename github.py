@@ -14,3 +14,12 @@
 # git config --global --unset http.proxy
 # //取消https代理 
 # git config --global --unset https.proxy
+
+# 分支处理
+# (1)新建分支 git branch '分支名'
+# (2)切换分支 git checkout '分支名'
+# (3)进行项目上传
+# git add .
+# git commit -m "提交的信息"
+# git remote add origin 远程仓库地址
+# git push -u origin '分支名'
