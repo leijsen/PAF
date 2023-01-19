@@ -1,5 +1,5 @@
 ﻿Rank,Paper Title,Citation,Venue,Year,Data Preprocessing,Data augmentation,Imbalance,Ensemble,Feature engineering,Hand Features,Temporal,Frequent,Demographic Features,DNN,CNN,RNN/Transformer,Attention,Backbone,Score,End-to-end,Multi-binary classification,Others
-1,Paroxysmal atrial fibrillation events detection from dynamic ECG recordings: The 4th China physiological signal challenge 2021,11,,,,,,,,,,,,,,,,,,,,
+1,Paroxysmal atrial fibrillation events detection from dynamic ECG recordings: The 4th China physiological signal challenge 2021,1,,,,,,,,,,,,,,,,,,,,
 2,A comparative study on neural networks for paroxysmal atrial fibrillation events detection from electrocardiography,,,,,,,,,,,,,,,,,,,,,
 3,,,,,,,,,,,,,,,,,,,,,,
 4,,,,,,,,,,,,,,,,,,,,,,
