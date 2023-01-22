@@ -1,5 +1,5 @@
 Rank,Paper Title,Citation,Venue,Year,Data Preprocessing,Data augmentation,Imbalance,Ensemble,Feature engineering,Hand Features,Temporal,Frequent,Demographic Features,DNN,CNN,RNN/Transformer,Attention,Backbone,Score,End-to-end,Multi-binary classification,Others
-1,Investigating Deep Learning Benchmarks for Electrocardiography Signal Processing,3,arXiv preprint,2022,,,,,,,,,,,,,,,,,,
+1,Investigating Deep Learning Benchmarks for Electrocardiography Signal Processing,3,arXiv preprint,2022,band-pass filter ; detrending ; resampling ; denoising ; normalizatiom,Z-score normalization,No,No,,No,No,"Is sampling Frenquency? If it is, Yes. Or No",No,Yes,Yes,Yes,Inherently in Transformer(location wise),CNN + (RNN/LSTM. + ATT/SE/GC) + linear,,No,Yes,
 2,A Multistep Paroxysmal Atrial Fibrillation Scanning Strategy in Long-Term ECGs,2,IEEE,2022,,,,,,,,,,,,,,,,,,
 3,Atrial fibrillation classification and detection from ECG recordings,0,Biomedical Signal Processing and Control,2023,,,,,,,,,,,,,,,,,,
 4,Towards Efficient ECG-based Atrial Fibrillation Detection via Parameterised Hypercomplex Neural Networks,0,arXiv ,2022,,,,,,,,,,,,,,,,,,
