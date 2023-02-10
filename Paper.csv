@@ -1,21 +1,20 @@
-Rank,Paper Title,Citation,Venue,Year,Data Preprocessing,Data augmentation,Imbalance,Ensemble,Feature engineering,Hand Features,Temporal,Frequent Features,Demographic Features,DNN,CNN,RNN/Transformer,Attention,Backbone,Dataset,Score,End-to-end,Multi-binary classification,Others,Coding source
-1,Investigating Deep Learning Benchmarks for Electrocardiography Signal Processing,3,arXiv preprint,2022,Z-score ; band-pass filter ; detrending ; resampling ; denoising ; normalizatiom,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Inherently in Transformer(location wise),CNN + (RNN/LSTM. + ATT/SE/GC) + linear,CinC2021,0.7,No,Yes,NONE,github.com/DeepPSP/torch_ecg
-2,A Multistep Paroxysmal Atrial Fibrillation Scanning Strategy in Long-Term ECGs,2,IEEE,2022,No,No,No,No,No,NO,NO,NO,No,No,No,No,No,LSTM-AE + SVM,CPSC2021,97.97 / 91.78,nO,nO,NONE,No
-3,Atrial fibrillation classification and detection from ECG recordings,0,Biomedical Signal Processing and Control,2023,DWT ; EMD,No,No,No,No,Spectral Features ; P wave ; R-R distances ,Yes,Yes,No,Yes,Yes,yes,No,BiLSTM,CPSC2021,88% / 86% / 83%,No,No,NONE,No
-4,Towards Efficient ECG-based Atrial Fibrillation Detection via Parameterised Hypercomplex Neural Networks,0,arXiv ,2022,Z-score,No,UAR(unweighted average recall),No,No,No,No,No,No,Yes,Yes,No,Yes,CNN + SE + MLP,CPSC2021 ; CPSC2018,others,No,Yes,提出了PH(parameterised hypercomplex)操作，并用Multi-Scopic、ResNet、DenseNet与加PH之后的效果对比；提出了UAR、SAF两个评估标准,github.com/leibniz-future-lab/Hypercomplex-ECG
-5,A Method to Detect the Onsets and Ends of Paroxysmal Atrial Fibrillation Episodes Based on Sliding Window and Coding,0,IEEE,2022,No,No,No,No,Yes,No,No,No,No,No,No,No,No,*RF / SVM / LR / LDA / KNN / CART /NB,CPSC2021,0.968,No,No,NONE,No
-6,A two-step method for paroxysmal atrial fibrillation event detection based on machine learning,0,MBE,2022,,,,,,,,,,,,,,,,,,,,
-7,Detecting Termination of Atrial Fibrillation Events on Electrocardiograms Using Deep Learning,0,,,,,,,,,,,,,,,,,,,,,,
-8,"Generalizable and Robust Deep Learning Algorithm for Atrial Fibrillation Diagnosis Across Ethnicities, Ages and Sexes",0,arXiv,2022,,,,,,,,,,,,,,,,,,,,
-9,Paroxysmal Atrial Fibrillation Detection by Combined Recurrent Neural Network and Feature Extraction on ECG Signals.,0,BIOSIGNALS,2022,,,,,,,,,,,,,,,,,,,,
-10,Development of Physiological Indices Using Modern Signal Processing Approaches,,,2021,,,,,,,,,,,,,,,,,,,,
-11,Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms using a deep neural network,1583,Nature,2019,,,,,,,,,,,,,,,,,,,,
-12,Automatic diagnosis of the 12-lead ECG using a deep neural network,346,Nature,2020,,,,,,,,,,,,,,,,,,,,
-13,MINA: multilevel knowledge-guided attention for modeling electrocardiography signals,53,IJCAI 2019,2019,,,,,,,,,,,,,,,,,,,,
-14,AF classification from a short single lead ECG recording: The Phy-sioNet / Computing in Cardiology Challenge 2017,531,CinC / IEEE,2017,,,,,,,,,,,,,,,,,,,,
-15,An artificial intelligence-enabled ECG algorithm for the identification of patients with atrial fibrillation during sinus rhythm: A retrospective analysis of outcome prediction,655,Lancet,2019,,,,,,,,,,,,,,,,,,,,
-16,A new deep learning algorithm of 12-lead electrocardiogram for identifying atrial fibrillation during sinus rhythm,17,Sci Rep,2021,,,,,,,,,,,,,,,,,,,,
-17,,,,,,,,,,,,,,,,,,,,,,,,
-18,,,,,,,,,,,,,,,,,,,,,,,,
-19,,,,,,,,,,,,,,,,,,,,,,,,
-20,,,,,,,,,,,,,,,,,,,,,,,,
+Rank,Paper Title,Citation,Venue,Year,Question,Data Preprocessing,Data augmentation,Imbalance,Ensemble,Feature engineering,Hand Features,Temporal,Frequent Features,Demographic Features,DNN,CNN,RNN/Transformer,Attention,Backbone,Dataset,Score,End-to-end,Multi-binary classification,Others,Coding source
+1,Investigating Deep Learning Benchmarks for Electrocardiography Signal Processing,3,arXiv preprint,2022,no,Z-score ; band-pass filter ; detrending ; resampling ; denoising ; normalizatiom,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Inherently in Transformer(location wise),CNN + (RNN/LSTM. + ATT/SE/GC) + linear,CinC2021,0.7,No,Yes,NONE,github.com/DeepPSP/torch_ecg
+2,A Multistep Paroxysmal Atrial Fibrillation Scanning Strategy in Long-Term ECGs,2,IEEE,2022,no,No,No,No,No,No,NO,NO,NO,No,No,No,No,No,LSTM-AE + SVM,CPSC2021,97.97 / 91.78,nO,nO,NONE,No
+3,Atrial fibrillation classification and detection from ECG recordings,0,Biomedical Signal Processing and Control,2023,no,DWT ; EMD,No,No,No,No,Spectral Features ; P wave ; R-R distances ,Yes,Yes,No,Yes,Yes,yes,No,BiLSTM,CPSC2021,88% / 86% / 83%,No,No,NONE,No
+4,Towards Efficient ECG-based Atrial Fibrillation Detection via Parameterised Hypercomplex Neural Networks,0,arXiv ,2022,no,Z-score,No,UAR(unweighted average recall),No,No,No,No,No,No,Yes,Yes,No,Yes,CNN + SE + MLP,CPSC2021 ; CPSC2018,others,No,Yes,提出了PH(parameterised hypercomplex)操作，并用Multi-Scopic、ResNet、DenseNet与加PH之后的效果对比；提出了UAR、SAF两个评估标准,github.com/leibniz-future-lab/Hypercomplex-ECG
+5,A Method to Detect the Onsets and Ends of Paroxysmal Atrial Fibrillation Episodes Based on Sliding Window and Coding,0,IEEE,2022,no,No,No,No,No,Yes,No,No,No,No,No,No,No,No,*RF / SVM / LR / LDA / KNN / CART /NB,CPSC2021,0.968,No,No,NONE,No
+6,A two-step method for paroxysmal atrial fibrillation event detection based on machine learning,0,MBE,2022,no,min-max normalization ; Removing baseline,No,No,Random forest,Random forest ; svm ; knn,Time: pRR20，mavsd，rsdm，maxHR，minHR；Frequency ：LF，HFnorm；Non-linear:mdcsi,yes,yes,no,yes,yes,no,no,ML + CNN,CPSC2021,Score U of 1.931,No,No,此文方法分为2步：1.特征提取和分类识别节奏 2.用CNN对一个心跳过程提取特征,None
+7,Detecting Termination of Atrial Fibrillation Events on Electrocardiograms Using Deep Learning,0,CS230,2021,no,No,no,no,no,no,no,no,no,no,yes,yes,yes,yes,CNN + LSTM + ATT,"STKLB,东南大学",,no,no,NONE,github.com/nikcaryo/cs230-ecg-afib
+8,Paroxysmal Atrial Fibrillation Detection by Combined Recurrent Neural Network and Feature Extraction on ECG Signals.,0,BIOSIGNALS,2022,1.模型架构部分第一阶段先使用Bilstm进行分类，然后第二阶段又特征提取，通过ANN和softmax分类预测，这是在干什么？,z-score ; band-pass filter ; segmented,no,no,no,ANN,RRintervals,no,no,no,yes,no,Bilstm,no,Bilstm + ANN + softmax,CPSC2021,stage1:90.14% ; stage2:92.56%,,yes,NONE,
+9,Development of Physiological Indices Using Modern Signal Processing Approaches,,,2021,,,,,,,,,,,,,,,,,,,,,
+10,Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms using a deep neural network,1583,Nature,2019,,,,,,,,,,,,,,,,,,,,,
+11,Automatic diagnosis of the 12-lead ECG using a deep neural network,346,Nature,2020,,,,,,,,,,,,,,,,,,,,,
+12,MINA: multilevel knowledge-guided attention for modeling electrocardiography signals,53,IJCAI 2019,2019,,,,,,,,,,,,,,,,,,,,,
+13,AF classification from a short single lead ECG recording: The Phy-sioNet / Computing in Cardiology Challenge 2017,531,CinC / IEEE,2017,,,,,,,,,,,,,,,,,,,,,
+14,An artificial intelligence-enabled ECG algorithm for the identification of patients with atrial fibrillation during sinus rhythm: A retrospective analysis of outcome prediction,655,Lancet,2019,,,,,,,,,,,,,,,,,,,,,
+15,A new deep learning algorithm of 12-lead electrocardiogram for identifying atrial fibrillation during sinus rhythm,17,Sci Rep,2021,,,,,,,,,,,,,,,,,,,,,
+16,,,,,,,,,,,,,,,,,,,,,,,,,
+17,,,,,,,,,,,,,,,,,,,,,,,,,
+18,,,,,,,,,,,,,,,,,,,,,,,,,
+19,,,,,,,,,,,,,,,,,,,,,,,,,
